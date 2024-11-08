@@ -48,6 +48,10 @@ main {
     gap: 12px;
     padding: 30px;
     font-size: clamp(0.9rem, 0.875rem + 0.4vi, 1rem);
+    box-shadow: 0px 0px 3px 0px black;
+}
+.card:hover {
+  transform: scale(1.1);
 }
 .user-name {
   font-weight: bold;
